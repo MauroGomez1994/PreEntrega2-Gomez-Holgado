@@ -79,6 +79,14 @@ div ul li a img{height: 40px;}
         }
     }
 
+    @media (max-width:500px){
+        .contenedor-horarios h2{font-size: 10px;
+        }
+    }
+
+    
+
+
 /*ESTILOS DE BODY*/
 
 .img-fondo{width: 100%;}
@@ -104,12 +112,12 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
     }
     
     
-    @media (max-width:1690px){
+    @media (max-width:1920px){
         .marcas-img{height: 150px;
         }
     }
     
-    @media (max-width:1278px){
+    @media (max-width:1300px){
         .marcas-img{height: 100px;
         }
     }    
@@ -118,6 +126,11 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
         .marcas-img{height: 50px;
         }
     }  
+
+    @media (max-width:500px){
+        .marcas-img{height: 30px;
+        }
+    } 
 
 
 /*ESTILOS DE MAIN (DATOS DE LA EMPRESA)*/
@@ -139,9 +152,15 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
         }
     }
 
-    @media (max-width:800px){
-        .info-empresa{
+    @media (max-width:500px){
+        .info-empresa h4{
             font-size: 11px;
+        }
+    }
+
+    @media (max-width:500px){
+        .info-empresa{
+            font-size: 8px;
         }
     }
 
@@ -149,7 +168,13 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
         div .face-insta img{
             height: 20px;
             width: 20px;
-            
+        }
+    } 
+
+    @media (max-width:500px){
+        div .face-insta img{
+            height: 15px;
+            width: 15px;
             
         }
     } 
@@ -171,8 +196,6 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
     "sidebar main main" 
     "sidebar parrafo-uno parrafo-dos" ;}
 
-
-
 @media screen and (max-width:950px){
 
     .grid{display: inline-block;
@@ -190,9 +213,7 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
         .parrafo-uno{display: none;}
         .parrafo-dos{display: none;}
         
-        
         }
-
 
     .sidebar{
         grid-area: sidebar;
@@ -201,15 +222,12 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
         padding: 20px;
         align-items: center;
         
-        
     }
-
 
     .main{width: 100%;
         height: 500px;
         grid-area: main;
     }
-
 
     .parrafo-uno{height: 100%;
         grid-area: parrafo-uno;
@@ -217,14 +235,12 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
     
     }
 
-
     .parrafo-dos{
         height: 100%;
         grid-area: parrafo-dos;
         background-color: #a4a2a2;
         
     }
-
 
     .main img{width: 100%;
     height: 100%;
@@ -234,7 +250,7 @@ body section{background-color: rgba(0, 0, 0, 0.800)e;
 /*ESTILOS DE PAGINA CONTACTO*/  
 
 .container-info{
-    background-color: #0f2833bc;
+    background-color: #1d668589;
     display: flex;
     padding-top: 10px;
     justify-content: space-around;}
@@ -288,3 +304,5 @@ footer h5{background-color: rgba(0, 0, 0, 0.800);
         }
     } 
 
+.footer-acceder h2{background-color: rgba(0, 0, 0, 0.8);
+color: white;}
